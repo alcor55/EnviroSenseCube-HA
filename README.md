@@ -113,3 +113,25 @@ Home assistant configurations:
 	            "air_quality": {{ trigger.json.air_quality | default(0) }},
 	            "battery": {{ trigger.json.battery | default(0) }}
 	          }
+	   
+	---- Lovelace Card ----
+
+	type: entities
+	title: EnviroSenseCube
+	entities:
+	  - entity: sensor.envirosensecube_temperature
+	    name: Temperatura
+	  - entity: sensor.envirosensecube_humidity
+	    name: Umidità
+	  - entity: sensor.envirosensecube_pressure
+	    name: Pressione
+	  - entity: sensor.envirosensecube_gas_resistance
+	    name: Resistenza Gas
+	  - entity: sensor.envirosensecube_air_quality
+	    name: Qualità Aria
+	  - entity: sensor.envirosensecube_battery
+	    name: Batteria
+
+     ![ha_screen](https://github.com/user-attachments/assets/9d42ff64-3ad1-4a9e-9c84-967dfd7a7e7f)
+
+    
