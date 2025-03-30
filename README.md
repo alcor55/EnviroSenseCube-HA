@@ -132,6 +132,6 @@ Home assistant configurations:
 	  - entity: sensor.envirosensecube_battery
 	    name: Batteria
 
-     ![ha_screen](https://github.com/user-attachments/assets/9d42ff64-3ad1-4a9e-9c84-967dfd7a7e7f)
+![ha_screen](https://github.com/user-attachments/assets/9d42ff64-3ad1-4a9e-9c84-967dfd7a7e7f)
 
     
